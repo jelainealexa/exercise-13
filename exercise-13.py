@@ -3,5 +3,8 @@
 # Outer loop
 for i in range(10):
     # Inner loop
-    # Print
+    for j in range(10):
+        # Print
+        print(i*j, end="")
 # Print
+    print()
